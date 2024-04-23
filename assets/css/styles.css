@@ -1,0 +1,90 @@
+/* General styling */
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure header stays above other content */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #d0d0d0;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #444;
+}
+
+header button:hover {
+    background-color: #444;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure footer stays above other content */
+}
+
+footer a {
+    text-decoration: none;
+    color: #444;
+}
+
+footer a:hover {
+    color: #777;
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #222;
+}
+
+.dark-mode header button {
+    background-color: #555;
+    color: #fff;
+}
+
+.dark-mode header button:hover {
+    background-color: #fff;
+    color: #444;
+}
+
+.dark-mode footer a {
+    color: #fff;
+}
+
+.dark-mode footer a:hover {
+    color: #ccc;
+}
